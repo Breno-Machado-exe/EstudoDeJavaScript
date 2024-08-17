@@ -1,0 +1,21 @@
+||---------------------------------------------------------------------------||
+
+    Linguagem de programação interpretada 
+
+    É uma linguagem onde o código-fonte é executado diretamente por um
+    interpretador, sem a necessidade de ser previamente compilado em um 
+    código de máquina (binário) específico. Em vez de converter o código
+    inteiro de uma vez para código de máquina, como faz um compilador, o 
+    interpretador analisa e executa o código linha por linha ou bloco por 
+    bloco, à medida que o programa é executado.
+
+    - Todo navegador possui um interpretador frond-end de JS
+    
+    - V8 é o interpretador javascript, também chamado de máquina virtual
+    javascript
+
+    - No backend utilizamos o NodeJS
+
+||---------------------------------------------------------------------------||
+
+

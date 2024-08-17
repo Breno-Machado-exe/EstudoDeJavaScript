@@ -1,0 +1,9 @@
+||---------------------------------------------------------------------------||
+
+    Os códigos são embutidos no HTML ou "linkados" de arquivos externos
+
+    Quando embutido, ele vai ser identificado pela tag <scripy>
+
+    Quando em links : <script src="codigo.js"></script>
+
+||---------------------------------------------------------------------------||
