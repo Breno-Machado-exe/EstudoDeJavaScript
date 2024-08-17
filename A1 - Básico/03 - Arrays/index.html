@@ -15,9 +15,64 @@
         //forma alternativa não muito utilizada
         var varivavel = Array(10,20,30)
 
+        //podemos modificar o array com alguns métodos ----------------------------
 
 
-        
+        // (que adicionam valores) // 
+
+        //01 - adicionar no inicio (unshift)
+        array01.unshift(6)
+        //pode adicionar + de 1 elemento
+        array01.unshift(0,2,4)
+
+        //02 - adiciona no final (push)
+        array01.push(40)
+        // no parenteses fica o que vai ser adionado
+
+
+        // (que removem valores) //
+
+        //03 - remove só o primeiro (shift)
+        array01.shift()
+        //não precisa de nada dentro dos parênteses
+
+        //04 - remove o final (pop)
+        array01.pop()
+        //não precisa de nada dentro dos parênteses
+
+        //05 - remove valores em uma posição (splice - significa emendar)
+        array01.splice(0,3)
+        //posição inicial , quantos retirar (conta o da posição)
+
+
+        // (outros) //
+
+        //06 - copia um array (slice)
+        let copia = array01.slice()
+        // --------------------------
+
+        //07 - tamanho do array (length)
+        copia.length
+
+        let tamanhoDaCopia = copia.length
+        //-------------------------------
+
+
+        // (novo operador) //
+
+        //spreed operator é o ...
+        let teste = [...array02, 'quatro', 'cinco']
+        //copia tudo de um vetor e permite adicionar mais elementos
+
+        // (flexibilidade do js) //
+
+        teste[5] = 'seis'
+
+        //teste é de tamanho 5, então não poderiamos acessar a posição 5. Ela não existiria
+        //mas ao fazer o que foi feito acima, ele cria novas posições no array teste
+
+
+        //-------------------------------------------------------------------------
 
     </Script>
 </body>
