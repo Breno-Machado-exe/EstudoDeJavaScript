@@ -1,0 +1,12 @@
+||---------------------------------------------------------------------------||
+
+    Primeira opção para interagir com o javascript pelo navegador.
+    Funciona no formato read-eval-print-loop (REPL), um laço de leitura,
+    interpretação e impressão.
+    Tu escreve algo na linguagem js, o navegador interpreta e imprime uma 
+    resposta.
+
+    (Node.js)
+    Também possui um "console" com interface REPL, é o seu terminal.
+
+||---------------------------------------------------------------------------||
