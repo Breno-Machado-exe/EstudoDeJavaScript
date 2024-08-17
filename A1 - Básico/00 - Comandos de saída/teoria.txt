@@ -1,0 +1,11 @@
+||---------------------------------------------------------------------------||
+
+    document.write = comando de saída por meio de um método que "escreve" 
+    no documento HTML
+
+    console.log = comando de saída  que escreve no console* 
+
+    alert() = comando de saída feito por uma função que cria um pop-up na
+    tela
+
+||---------------------------------------------------------------------------||

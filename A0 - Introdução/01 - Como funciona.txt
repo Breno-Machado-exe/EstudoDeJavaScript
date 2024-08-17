@@ -4,6 +4,10 @@
 
     Quando embutido, ele vai ser identificado pela tag <scripy>
 
-    Quando em links : <script src="codigo.js"></script>
+    Quando em links : <script src="codigo.js"></script>  (mais recomendado)
+
+    - Por que é o mais recomendado?
+        Um dos motivos é que se houver um bug, na forma embutida a página
+    pode não carregar, o processamento vai ser bloqueado
 
 ||---------------------------------------------------------------------------||

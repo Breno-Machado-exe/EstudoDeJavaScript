@@ -1,0 +1,40 @@
+||---------------------------------------------------------------------------||
+
+    1. Var 
+
+        Não recomendado por causa do que vai ser dito em  5.
+
+    2. let
+
+        (permita que isso mude) 
+        Forma mais usual de se criar uma variável
+
+    3. Forma do nome
+
+        - Snake Case 
+        nome_da_variavel
+        - Camel Case
+        nomeDaVariavel
+
+    4. Quando concatenar e quando interpolar?
+        Concatenação: É útil quando você está em um ambiente que não suporta 
+        interpolação de strings, ou quando deseja usar o operador + para 
+        combinar strings.
+
+        Interpolação: Geralmente é preferível por ser mais legível
+        e permitir que você insira variáveis e expressões diretamente
+        dentro de uma string sem a necessidade de múltiplas concatenações.
+
+    5. Escopo de Função vs. Escopo de Bloco
+
+        var: Tem escopo de função, o que significa que uma variável declarada 
+        com var fica disponível em toda a função onde foi declarada,
+        independentemente de onde está dentro da função. Isso pode levar 
+        a problemas de "shadowing" (sombras) de variáveis e confusões.
+
+        let e const: Têm escopo de bloco, o que significa que as variáveis 
+        declaradas com let ou const só existem dentro do bloco {} em que
+        foram declaradas. Isso torna o código mais previsível e reduz
+        o risco de conflitos.
+
+||---------------------------------------------------------------------------||

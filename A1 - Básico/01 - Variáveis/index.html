@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variáveis</title>
+</head>
+<body>
+    
+    <script>
+
+        //declaração de variáveis
+        var mensagem1 = "tipo não recomendado"
+        let mensagem2 = "tipo mais usual"
+        
+        //formas de inicializar quando não se sabe o conteúdo
+        let teste01 = " "
+        let teste02 = ' '
+        let teste03 = null
+        let teste04 = undefined
+        let teste05 = 0
+
+        //declaração de constante | letras maíusculas são uma convenção
+        const LETRAMAIUSCULA =  " "
+
+        //Após a declaração uma mesma variável pode ter uma mudança de tipo
+        let teste = null
+        teste = "mudança de tipo"
+
+        // A- Escrevendo com variáveis | B - interpolação | C - Concatenação 
+
+        // A - 
+        document.write(mensagem1)
+        // B - processo de inserir valores de variáveis ou expressões dentro de uma string de forma dinâmica.
+        document.write(` <p> mensagem: ${mensagem1} </p>`) //usa crase e não aspas simples
+        // C - união de strings usando o operador de adição (+) ou outros métodos disponíveis para strings.
+        document.write("<p> mensagem: " + mensagem2 + "</p>")
+
+
+
+    </script>
+
+</body>
+</html>
