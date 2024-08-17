@@ -1,0 +1,11 @@
+||---------------------------------------------------------------------------||
+
+    DOM = Document Objetct model
+    O js consegue acessar cada conteúdo do HTML através do conceito de 
+    objetos;
+    Cada elemento do navegador é visto como um objeto que pode ser acessado;
+    Para acessar o conteúdo dos objetos, manipulamos por seleção.
+    A selecção é feita atravéz de métodos.
+    O método mais utilizado atualmente é o query selector
+
+||---------------------------------------------------------------------------||
