@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Objetos
+    </title>
+</head>
+<body>
+    <script>
+
+        //-------------------------------------------------------------
+
+        // (objeto literal)
+
+        // caso eu queira criar uma variável composta/híbrida
+        let pessoa = 
+        {
+            nome : 'Breno',
+            idade : 20,
+            peso : undefined,
+            altura: 1.74
+        }
+        // pode usar let, var e const
+        // essa variável é um objeto 
+        // entre {} ficam os atributos/propriedades do objeto
+        // separamos as propriedades por vírgula. Na última é opcional
+        //--------------------------------------------------------------
+
+        //--------------------------------------------------------------
+
+        // (acessar uma propriedade) 
+
+        // duas formas
+        // 01 - pelo ponto (mais usual)
+        pessoa.idade
+        //02 - colchetes
+        pessoa['nome']
+        //---------------------------------------------------------------
+
+        //limitar a quantidade de casas decimais
+        //usamos o .tofixed()
+        //entre parenteses a quantidade
+        //exemplo
+        pessoa.idade.toFixed(2) // no log vai mostrar 20.00
+
+        /*
+        podemos usar essas propriedades na atribuição de variáveis, em 
+        operaçoes, podemos alterar/atualizar o valor da propriedade
+        */ 
+
+
+        //---------------------------------------------------------------
+        // (situação hipotética :
+
+        // propriedade não inicializada, tipo um array vazio
+        // podemos inserir valores nele, mas se quisermos inserir novos
+        //valores, termos que usar o spreed para não subscrever o que ja inserimos
+        let teste =
+        {
+            descricao: [],
+            array01: []
+        }
+        teste.descricao = ['teste']
+        teste.descricao = [...teste.descricao, 'teste2']
+        
+        //---------------------------------------------------------------
+
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+||---------------------------------------------------------------------------||
+
+    Não é a ideia geral de objetos do javascript
+    É a estrutura de dados objetos ou objeto literal
+    Semelhante ao struct do c++
+
+||---------------------------------------------------------------------------||
