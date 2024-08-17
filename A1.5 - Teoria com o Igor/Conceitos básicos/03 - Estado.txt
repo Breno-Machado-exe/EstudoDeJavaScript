@@ -1,0 +1,9 @@
+||---------------------------------------------------------------------------||
+
+    Estado é o conjunto de dados que são mantidos e alterados durante
+    a execução do programa.
+    Descreve a forma completa de todos os dados de um problema em um
+    momento no tempo.
+    Se não houverem operações manipulando os dados, o estado se mantem.
+
+||---------------------------------------------------------------------------||

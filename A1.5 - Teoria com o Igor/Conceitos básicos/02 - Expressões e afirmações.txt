@@ -1,0 +1,13 @@
+||---------------------------------------------------------------------------||
+
+    Fragmento de código que produz um valor = expressão;
+    Podem ser combinadas para formar uma maior.
+
+    Sentença completa é uma afirmação ou statement;
+    Pode ser composta por uma expressão ou usar algum componente que tenha 
+    ou não efeito colateral.
+
+    Em efeito colateral estão incluídos:
+    Escrever na memória, escrever na tela, ler o estado de um periférico , ...
+
+||---------------------------------------------------------------------------||

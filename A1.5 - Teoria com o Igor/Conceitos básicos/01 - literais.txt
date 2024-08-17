@@ -1,4 +1,13 @@
 ||---------------------------------------------------------------------------||
 
+    Primeira forma  de representar valores de forma escrita;
+    Internamente os valores são armazenados de forma binária;
+
+    São os números,strings,bools,nulo e undefined;
+    Literais de textos são sempre representados entre "", '', ou `` ;
+    Quando criado com `` é chamado de modelo/template;
+    Utilizamos \ para realizar o escapamento de símbolos especiais,
+    Exemplo: 
+    "esse texto está \"entre aspas\"."
 
 ||---------------------------------------------------------------------------||
