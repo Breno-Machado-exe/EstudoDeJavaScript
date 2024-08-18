@@ -1,0 +1,9 @@
+||---------------------------------------------------------------------------||
+
+    objetos podem ter funções como atributo
+    Essas funções são chamadas de métodos também, segundo os 
+    slides do igor.
+    Os métodos podem acessar as propriedades dos objetos 
+    que estão ligados com a palavra reservada this 
+
+||---------------------------------------------------------------------------||

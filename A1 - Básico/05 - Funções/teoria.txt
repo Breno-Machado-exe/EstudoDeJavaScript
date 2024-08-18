@@ -11,4 +11,10 @@
     funções sem retorno
 
 
+    Ao criar funções, aumentamos a abstração do nosso código
+
+    Diferente do c++, as funções são içadas (hoisting) no script
+    Então podemos usá-las mesmo se estiverem definidas, por exemplo, no
+    final do código
+    
 ||---------------------------------------------------------------------------||
