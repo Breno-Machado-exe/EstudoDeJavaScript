@@ -33,7 +33,18 @@ titulo2.addEventListener('click', function()
 //quando usamos essa função anônima?
 //quando precisamos passar uma função como parâmetro
 
+//outro exemplo
 
+const produto = function(a,b) {
+    return a * b;
+}
+
+// funções como valores:
+let operação = produto;
+operação(2,3)
+
+// não são içadas, então tu deve criar a função antes de atribuir elas a
+// alguma variável
 //-----------------------------------------------------------------------
 
 

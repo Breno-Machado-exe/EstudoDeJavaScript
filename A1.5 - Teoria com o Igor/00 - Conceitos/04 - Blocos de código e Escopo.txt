@@ -1,0 +1,17 @@
+||---------------------------------------------------------------------------||
+
+    Escopo é onde o programa organiza a ligação de valores a identificadores
+    de suas variáveis, constantes e funções;
+    
+    Variável fora de um escopo específico é considerada no escopo global
+    
+    funções possuem escopo próprio, seu escopo local;
+    Faz com que uma função não interfira com o escopo de outra ou com o
+    global;
+
+    Variáveis let e const pertencem ao escopo em que foram criadas
+    
+    Blocos de código também possuem seu próprio escopo e enxergam as 
+    variáveis do escopo "pai".
+
+||---------------------------------------------------------------------------||

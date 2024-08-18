@@ -10,6 +10,10 @@
     Procedimento | Procedure
     funções sem retorno
 
+    Funções são criadas para diminuir a repetição de códigos iguais;
+    Reduzir programas grandes em pequenas partes;
+    Isolar partes do programa de outras;
+    Melhorar a manutenibilidade.
 
     Ao criar funções, aumentamos a abstração do nosso código
 
