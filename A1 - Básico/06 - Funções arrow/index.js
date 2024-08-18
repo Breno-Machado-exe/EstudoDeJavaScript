@@ -74,6 +74,9 @@ const olaMundoArrow = () => document.write("Oia a flecha")
 //não pq eu tentei com chaves e não deu certo* , da dando undefined
 
 //não precisa de return também
+//não são içadas 
+//não subscrevem a referência this* 
+
 
 olaMundoArrow()
 

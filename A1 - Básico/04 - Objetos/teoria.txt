@@ -4,4 +4,44 @@
     É a estrutura de dados objetos ou objeto literal
     Semelhante ao struct do c++
 
+    Acessamos as propriedades e um objeto por seunome.propriedade
+    Funções que são propriedades de um objeto são chamadas de métodos e 
+    podemos acessá-los da mesma forma:  seunome.metodo()
+
+
+    (this)
+
+    Ao invés de usar :
+
+    let joao =
+    {
+        fruta: "maçã",
+        quantidade: 1,
+        comeu: function()
+        {
+            joao.quantidade --;
+        }
+    }
+
+    Podemos usar :
+
+    let joao =
+    {
+        fruta: "maçã",
+        quantidade: 1,
+        comeu: function()
+        {
+            this.quantidade --;
+        }
+    }
+
+    O this vai referênciar o próprio objeto
+
+    *** atenção ***
+    Podemos usar o this também em uma função declarada, dai ao usá-la como 
+    método, o this passa a se referenciar ao objeto que a função
+    está ligada em uma chamada
+
+    *** arrow ***
+    Funções arrow como método não ligam this ao objeto
 ||---------------------------------------------------------------------------||
