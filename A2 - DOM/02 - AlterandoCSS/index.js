@@ -99,6 +99,7 @@ let btnLight = document.querySelector('#btlight')
 btnDark.addEventListener('click', modoDark)
 btnLight.addEventListener('click', modoLight)
 //ouvintes que vão chamar funções quando um click ocorrer relacionado ao botão
+//funções passadas por parâmetro são chamadas de função callback
 
 
 function modoDark()

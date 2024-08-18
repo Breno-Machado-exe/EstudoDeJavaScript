@@ -1,0 +1,26 @@
+||---------------------------------------------------------------------------||
+
+    Conseguimos alterar a representação de uma página atravez de uma 
+    interface de aplicações (API);
+    A API é acessada via uma série de objetos javascript;
+    Em particular o document;
+    É conhecida como Document Objetct Model (DOM)
+
+    Os principais objetos para a manipulação de páginas ndo navegador são :
+
+    - window
+        aba do navegador onde a página está carregada
+        responde a eventos de controle do usuário*
+        configura timers e persistência de dados no local
+
+    - navigator
+        representa o navegador e sua versão
+        obtem a localização do usuário, sua linguagem e acesso a dispositivos
+        como câmeras e microfone
+
+    - document
+        representação da estrutura e estilos aplicados ao documento
+        permite adicionar e remover elementos
+        altera classes e estilos individuais dos elementos
+
+||---------------------------------------------------------------------------||
