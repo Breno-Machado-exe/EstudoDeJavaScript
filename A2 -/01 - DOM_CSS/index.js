@@ -1,24 +1,43 @@
+//--------------------------------------------------------------------
+
 let titulo = document.querySelector('h1')
 titulo.innerHTML = 'Manipular CSS'
 
 //--------------------------------------------------------------------
 
-// Como alterar uma propriedade de uma tag
+
+
+//--------------------------------------------------------------------
+
+// (setAttribute)
+// altera uma propriedade daquela tag
 
 let imagem = document.querySelector('#foto')
+// agora a variavel imagem representa um objeto
+
 imagem.setAttribute('src', 'cacholo.png')
+imagem.setAttribute('width', '280px')
 //setattribute tem 2 parametros. nome do atributo e valor
 
 //-------------------------------------------------------------------
 
 
+
 //-------------------------------------------------------------------
 
-// Manipular CSS
+
+//  (Manipular CSS)
+
+
+// (01 - Com o Style)
+
 // propriedade style é uma das formas
 document.querySelector('h1').style.color = "blue";
 titulo.style.color = "orange" //é outra forma 
-//mas só pq la em cima eu associei titulo ao h1
+// titulo é a variávl que eu associei ao h1
+//style é a propriedade que me permite alterar o CSS
+//color é a propriedade que queremos modificar
+
 
 //se a propriedade tiver nome composto
 //ex o background-color
