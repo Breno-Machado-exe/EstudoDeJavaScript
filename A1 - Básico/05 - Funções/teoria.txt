@@ -1,0 +1,14 @@
+||---------------------------------------------------------------------------||
+
+    Funções , métodos ou procedimentos. Depende de alguns detalhes
+
+
+    Funções
+    através do function, declarar um nome para uma ou um conjunto de ações 
+    que você ira utilizar mais de uma vez. Criando dinamismo
+
+    Procedimento | Procedure
+    funções sem retorno
+
+
+||---------------------------------------------------------------------------||
