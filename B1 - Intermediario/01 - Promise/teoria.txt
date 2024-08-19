@@ -1,0 +1,34 @@
+||---------------------------------------------------------------------------||
+
+    (introdução)
+    
+    A Promise é um objeto que representa o sucesso ou a falha de uma
+    operação assíncrona;
+    Sua utilização é recomendada para utilizar em requisições.
+    Ela faz sentido quando a função que ela recebe tiver alguma execução 
+    assíncrona.
+    
+    Ela obrigatoriamente precisa receber uma função com dois parâmetros;
+    Ela só possui 2 resultados possíveis.
+
+    (Caonceitos avançados)
+
+    Promise é uma função construtora, e por isso utilizamos new Promise;
+    Estamos sempre criando uma nova Promise.
+    
+||---------------------------------------------------------------------------||
+
+
+
+||---------------------------------------------------------------------------||
+
+    (Then e Catch)
+
+    A promise vai "retornar" apenas dois possíveis resultados.
+    - Ou ela retorna o sucesso de uma operação pelo resolve
+    - Ou ela retorna a falha da operação pelo reject
+
+    Para acessar o sucesso da promise usamos o método .then  e para usarmos
+    a falha da operação usamos o método .catch
+
+||---------------------------------------------------------------------------||
