@@ -1,0 +1,143 @@
+||---------------------------------------------------------------------------||
+
+    (introdução)
+    
+    O javascript só possui 1 linha de execução;
+    Temos que tomar cuidado para não segura-la e deixar a aplicação
+    congelada.
+
+    4 principais características o js:
+
+    - Single-threaded 
+    Apenas uma tarefa é executada por vez.
+
+    - Asynchronous (assincronicidade)
+    Existem funções que apenas serão executadas depois de um tempo. 
+    Seja porque o tempo que demora faz parte do processo;
+    Seja porque realiza uma operação custosa;
+    Seja porque espera uma condição para ser executada;
+    Ou seja, não é executada de forma sincronizada com a execução do programa.
+
+    - Non-Blocking (Não bloqueante)
+    Tarefas assíncronas não são bloqueantes;
+    Ou seja, não travam a execução do código.
+    Tarefas bloqueantes são executadas assim que o programa é executado.
+
+    - Concurrent
+    As tarefas concorrem para serem executadas.
+
+
+||---------------------------------------------------------------------------||
+
+
+
+||---------------------------------------------------------------------------||
+
+    (componentes do event loop)
+
+    O Event Loop é o tratamento de eventos;
+    Ele trata os eventos levando em conta as 4 características abordadas
+    anteriormente;
+    Ele segue uma ordem de prioridade de quem tem que ser executado, quando
+    e por quem.
+
+    Componentes:
+
+    - Call Stack
+    - Web APIs
+    - Task Queue
+    - Microtask Queue
+
+||---------------------------------------------------------------------------||
+
+
+
+||---------------------------------------------------------------------------||
+
+    (Call Stack)
+
+    É uma pilha onde tarefas que chamamos de codigos bloqueantes ficam, são 
+    executadas e vão embora;
+
+    O js vai executar só um por vez, então se houver uma tarefa que depende de 
+    outra para ser executada, ela permanece na pilha, a outra é chamada e é 
+    empilhada em cima da primeira. Ela é executada, vai embora e a que sobrou 
+    enfim libera espaço na pilha.
+
+    O problema é que podemos ter tarefas que não necessesariamente
+    precisam que outras tarefas sejam resolvidas para ai sim se resolverem.
+    Existem tarefas que demoram a executar, e se fossemos esperar por sua 
+    execução, o programa ficaria congelado.
+
+    *** É uma pilha de coisas, portanto a última operação a ser empilhada 
+    é a primeira a ser resolvida.
+    LIFO - last in, first out ***
+
+||---------------------------------------------------------------------------||
+
+
+
+||---------------------------------------------------------------------------||
+
+    (Web APIs)
+
+    É a solução do nosso problema de congelamento.
+    
+    Essa area recebe as operações custosas ou de longa duração e as 
+    executa em um plano diferente.
+
+    Os resultados dessas operações não voltam diretamente para a call task;
+    Elas são associadas a um callback que vai para a Task Queue*, e por isso 
+    ela também é chamada de CallBack Queue.
+
+    Os callbacks vão para a task queue na ordem em que devem ir.
+    Como assim?
+    Vamos supor que dois setTimeout são mandandos para os web APIs para serem 
+    resolvidos.
+    Mesmo que o de menor duração seja enviado após o de maior duração, por 
+    ele ter uma menor duração, ele fica "pronto" primeiro e é enviado seu 
+    callback para a task queue.
+
+    Não há ordem de quem vai ser resolvido. Quem for resolvido primeiro, vaza.
+
+    São operados ali códigos que chamamos de não bloqueantes.
+
+||---------------------------------------------------------------------------||
+
+
+
+||---------------------------------------------------------------------------||
+
+    (Task Queue)
+
+    Armazena os callbacks;
+    O event loop verifica se a callstack está vazia. Se estiver, um callback 
+    é chamado para a callstack.
+
+    A primeira operação a ser enfileirada é a primeira a ir embora. Pois nessa 
+    area existe uma ordem de execução.
+
+    FIFO - first in, first out
+
+    *** não necessesariamente o callback vai ser executado no tempo que devia.
+    Isso por que é necessário esperar que a call stack esteja vazia.
+    ***
+
+
+||---------------------------------------------------------------------------||
+
+
+
+||---------------------------------------------------------------------------||
+
+    (Microtask Queue)
+
+    Trabalha com promises.
+    São callbacks específicos que o event loop prioriza na hora de mandar para
+    a callstack em relação aos callbacks do task queue.
+
+    É onde operações de funções assíncronas e conclusões de promessas vão;
+    FIFO assim como a Task Queue;
+
+
+||---------------------------------------------------------------------------||
