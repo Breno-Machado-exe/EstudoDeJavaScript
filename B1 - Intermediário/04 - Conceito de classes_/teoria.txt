@@ -1,0 +1,80 @@
+||---------------------------------------------------------------------------||
+
+    Controlam a geração de protótipos;
+
+    Representam um tipo de objetos;
+
+    Nela definimos uma função construtora, que traz o código necessário para
+    criar instância;
+
+    Os métodos são adicionados logo no corpo da classe e também estarão 
+    disponíveis para todas as instâncias;
+
+    Novas instâncias também são criadas com o operador new + nome da classe.
+
+
+    (Atributos padrão)
+
+    se atributos com valores padrões são suficientes pro objeto funcionar, é 
+    possível passá-los direto da classe.
+
+    Dai todas as instancias vão ser criadas com atributos definidos.
+    Se o construtor não os alterar, a única forma é uma tribuição direta.
+
+
+    (bloqueio de propriedades e métodos)
+    
+    propriedades ou métodos declarados com um # no identificador é 
+    considerada privada.
+    
+    Campos privados só podem ser acessados dentro da própria classe.
+    Qualquer tentativa de acesso externo gera um erro de execução
+
+
+    (métodos de acesso)
+
+    O acesso a propriedades privadas é gerenciado criando métodos públicos 
+    que as manipulam;
+
+    método marcado como get é um método de leitura. Indica que a propriedade
+    pode ser lida fora da classe. É o getter.
+
+    método marcado como set é um método de escrita. Indica que a propriedade
+    pode ser alterada fora da classe. É o setter.
+
+
+
+    Consideramos que o uso de set e get define uma interface. Já a propriedade
+    que eles manipulam consideramos encapsulada.
+
+
+
+    (propriedades e métodos estáticos)
+
+    método estático
+    - método ou propriedade guardados diretamente no construtor ou na classe
+
+    Dentro da classe, ao usar a palavra static, o método será da classe e não
+    das instâncias
+    - métodos estáticos são chamados pela classe
+
+
+    (herança)
+
+    Com a herança, podemos fazer com que novos tipos herdem propriedades 
+    e métodos, se especializando quando necessário.
+
+    Dessa forma nos concentramos em programar só o que é diferente ou novo.
+
+    nas classes, usamos a palavra resrvada extends para dizer de qual classe
+    estamos especializando.
+
+    superclasse = classe ancestral
+    Os métodos da superclasse podem ser acessados através de super 
+
+    No construtor, chamamos o construtor original usando super() e mantendo 
+    os argumentos da superclasse 
+
+
+
+||---------------------------------------------------------------------------||
