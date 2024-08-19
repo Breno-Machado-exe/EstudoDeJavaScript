@@ -1,0 +1,73 @@
+||---------------------------------------------------------------------------||
+
+    Termo guarda chuva para um grupo de APIs modernas, que permitem criar
+    novos elementos HTML customizados de forma isolada e reutilizável.
+
+    Componentes criados dessa forma podem ser compartilhados entre quaisquer
+    navegadores e bibliotecas modernos.
+
+    Principais Componentes:
+    - Custom elements 
+    - Shadow DOM
+    - Templates HTML
+    - sistemas de módulos
+
+||---------------------------------------------------------------------------||
+
+
+
+||---------------------------------------------------------------------------||
+
+    (Custom elements)
+
+    É uma API que permite criar novos elementos HTML
+    Define sua aparência e comportamento.
+
+    Aumenta a abstração do código, com tags muito mais próximas do seu 
+    problema.
+
+||---------------------------------------------------------------------------||
+
+
+
+||---------------------------------------------------------------------------||
+
+    (Shadow Down)
+
+    API que permite criar novas árvores de documento independente do DOM da 
+    página.
+    Elas podem ser desenhadas e controladas de forma isolada, com seus
+    estilos e comportamentos não influenciando na aplicação como um todo.
+    Permite criar árvores encapsuladas dentro do documento principal que 
+    evitam os conflitos e diminuem a complexidade geral da aplicação
+
+||---------------------------------------------------------------------------||
+
+
+
+||---------------------------------------------------------------------------||
+
+    (Templates HTML)
+
+    API que permite usar os elementos <template> e <slot> para componentes 
+    que não são desenhados no carregamento da página principal.
+    Esses componentes podem ser instanciados posteriormente e reutilizados
+    sob demanda 
+
+||---------------------------------------------------------------------------||
+
+
+
+||---------------------------------------------------------------------------||
+
+    (ES Modules)
+
+    Módulos ECMAScript permitem criar arquivos de script separados, controlando
+    o que pode ou não ser exportado para reuso.
+
+    Isso ajuda a controlar o contexto, otimizar o carregamento da página e 
+    montar uma árvore de dependências complexa.
+
+||---------------------------------------------------------------------------||
+
+
