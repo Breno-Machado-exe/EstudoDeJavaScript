@@ -1,0 +1,17 @@
+||---------------------------------------------------------------------------||
+
+    
+    Eventos estão relacionados com ações que podemos realizar no nosso
+    navegador, janela ou página. Ações através do teclado, mouse, ...
+
+    (dissecando o HTML)
+
+    Na tag do body:
+        
+        - propriedades onload e onscroll
+            é um tipo de evento 
+            tudo com on(nomedeevento)
+            significa que quando houver esse evento, tu dispara uma função
+            específica
+        
+||---------------------------------------------------------------------------||

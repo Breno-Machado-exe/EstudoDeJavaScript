@@ -1,0 +1,13 @@
+entrada e saída bloqueantes 
+node.js usa a gestão de eventos do js para criar operações não bloqueantes
+
+dado um bloco de códigos para um evento em específico
+essee bloco só é executado quando o evento for emitido
+
+o código é executado de forma assíncrona por laços de eventos, quando houver disponibilidade
+
+a entrada e saída é feita de forma assíncrona
+o que mantem uma única execução do programa
+
+realiza diversas tarefas em paralelo
+sem bloquear o resto do programa
