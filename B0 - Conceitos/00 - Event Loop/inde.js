@@ -43,3 +43,9 @@ Promise.resolve(true).then(()=>{
 // vai para Web API
 //Depois de ir pra web API, a arrow function vai para Microtask queue
 //Espera a call stack esvaziar
+
+/*
+
+setImmediate faz ir pra Web API, mas a tarefa vai ser executada imediatamente
+
+*/
