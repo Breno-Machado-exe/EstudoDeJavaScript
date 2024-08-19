@@ -13,5 +13,13 @@
             tudo com on(nomedeevento)
             significa que quando houver esse evento, tu dispara uma função
             específica
-        
+    
+    A forma que estamos usando nas tags do HTML para disparar funções
+    dependendo do evento é uma forma imperativa
+
+    O comum é fazer a seleção do elemento que queremos manipular e utilizar 
+    o ouvinte de eventos para executar as funções
+    
+
+
 ||---------------------------------------------------------------------------||
