@@ -1,5 +1,9 @@
 ||---------------------------------------------------------------------------||
 
-
+    O cliente faz uma requisição ao servidor;
+    O servidor aloca uma thread* para processar a requisição do usuário;
+    Essa thread pode fazer um acesso a um SGDB;
+    O processamento é interrompido até a thread obter o resultado do SGDB;
+    Os dados são processados e a resposta é enviada ao cliete.
 
 ||---------------------------------------------------------------------------||

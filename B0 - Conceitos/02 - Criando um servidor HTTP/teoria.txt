@@ -1,0 +1,12 @@
+||---------------------------------------------------------------------------||
+
+    Um dos moódulos do nodejs tem o necessário para manipular requisições 
+    HTTP;
+    Conseguimos ouvir por conexões e realizar respostas ao navegador ou 
+    aplicação que estivermos acessando;
+
+    Criamos o servidor e solicitamos que execute em uma porta específica.
+
+    (estudar depois) 
+
+||---------------------------------------------------------------------------||
