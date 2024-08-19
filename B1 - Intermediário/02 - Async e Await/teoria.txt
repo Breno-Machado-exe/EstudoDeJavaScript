@@ -1,0 +1,21 @@
+||---------------------------------------------------------------------------||
+
+    Forma de realizar a sincronia de promessas com a sintaxe parecida com o 
+    código síncrono;
+
+    Uma função marcada com async vai ser executada de forma assíncrona,
+    permite o uso de promessas como se fossem funções síncronas;
+
+    Cada promessa precedida por await fará o resultado ser disponível apenas
+    quando tiver o retorno
+
+
+    async e await só afeta quem usa o retorno da Promise
+
+    Pode-se dar um await em qualquer função que retorna uma Promise
+
+    Qualquer função convertida para async vai retornar uma Promise
+
+    O try e o catch vão pegar o reject de uma Promise
+    
+||---------------------------------------------------------------------------||
