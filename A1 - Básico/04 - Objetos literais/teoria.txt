@@ -8,6 +8,9 @@
     Funções que são propriedades de um objeto são chamadas de métodos e 
     podemos acessá-los da mesma forma:  seunome.metodo()
 
+    Acessamos as propriedades dos objetos de forma simples pelo . ,fazendo os
+    objetos atuarem como mapas chave-valor
+
 
     (this)
 
