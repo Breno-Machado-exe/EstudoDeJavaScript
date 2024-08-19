@@ -20,6 +20,8 @@
     O comum é fazer a seleção do elemento que queremos manipular e utilizar 
     o ouvinte de eventos para executar as funções
     
+    (CallBack)
 
+    É a função que é chamada quando um evento acontece
 
 ||---------------------------------------------------------------------------||
