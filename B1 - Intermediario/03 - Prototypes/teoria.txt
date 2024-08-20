@@ -1,0 +1,19 @@
+||---------------------------------------------------------------------------||
+
+    Cada objeto possui uma referência para outro objeto;
+    Sempre que uma propriedade ou método não estiver disponível no objeto,
+    a procura é feita no protótipo.
+
+    Todo obejeto tem uma propriedade __proto__ que tem uma referência para 
+    um outro objeto.
+
+    Caso uma chave ( .propriedade ) não exista no objeto local, ela será
+    procurada na propriedade __proto__, se não achar, é buscada no proximo 
+    __proto__ até um momento que não tem como subir mais.
+
+    Object.setPrototypeOf(filho,pai) faz com que pai seja um protótipo para 
+    o filho
+
+    Object.getPrototypeOf(objeto) mostra quem é seu protótipo
+
+||---------------------------------------------------------------------------||
