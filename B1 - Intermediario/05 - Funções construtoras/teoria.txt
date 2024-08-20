@@ -1,0 +1,8 @@
+||---------------------------------------------------------------------------||
+
+    Uma função construtora cria um novo objeto de mesmo tipo, com 
+    propriedades já definidas.
+    Utiliza o operador new para a criação.
+
+
+||---------------------------------------------------------------------------||
