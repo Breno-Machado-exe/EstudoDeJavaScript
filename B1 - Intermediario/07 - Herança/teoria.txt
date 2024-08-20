@@ -1,0 +1,18 @@
+||---------------------------------------------------------------------------||
+
+    Novos tipos herdam propriedades e métodos, se especializando quando 
+    necessário,
+
+    (Extends)
+
+    Podemos criar classes que servem de especialização de outra, adicionando
+    a palavra reservada extends + nome da superclasse
+
+    Superclasse é a classe ancestral da classe especializada.
+    Os métodos da superclasse podem ser acessados na especializada através do
+    termo super.
+
+    No construtor, podemos chamar o construtor acestral usando super() e
+    mantendo os argumentos da superclasse
+
+||---------------------------------------------------------------------------||
