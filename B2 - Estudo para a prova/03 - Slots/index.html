@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Rank</title>
+    <script type="module" src="StarRating.js"></script>
+    <script type="module" src="AnimalItem.js"></script>
+</head>
+<body>
+    <template id="animal-template">
+        <style>
+            .animal
+            {
+                display: flex
+            }
+            .name
+            {
+                font-weight: bold
+            }
+        </style>
+        <div class="animal">
+            <div>
+                <slot name="name"/>
+            </div>
+            <div>
+                <slot name="rating"/>
+            </div>
+        </div>
+    </template>
+
+
+    <h1>Animal Rank</h1>
+    <ul>
+        <li>
+            <div>🐶</div>
+            <div>⭐️⭐️⭐️⭐️⭐️⭐️</div>
+        </li>
+        <li>
+            <div>🐱</div>
+            <div>⭐️⭐️⭐️⭐️⭐️</div>
+        </li>
+        <li>
+            <div>🐭</div>
+            <star-rating/>
+        </li>
+        <li>
+            <animal-item/>
+        </li>
+    </ul>
+
+
+    <script>
+        const ul= document.querySelector("ul")
+        const animalTemplate = document.querySelector("#animal-tamplate").content 
+        const papagaio = animalTemplate.cloneNode(true)
+        papagaio.querySelector(".animal>div").textContent = "🐦"
+        ul.appendChild(papagaio)
+    </script>
+    
+</body>
+</html>

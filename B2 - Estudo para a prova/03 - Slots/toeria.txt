@@ -1,0 +1,7 @@
+
+
+
+slot permite reservar posições nos componentes  
+Ou seja, permite realizar a composição de componentes
+
+No elemento de destino, elementos com o atributo name definidos reservam lugares para outros componentes
