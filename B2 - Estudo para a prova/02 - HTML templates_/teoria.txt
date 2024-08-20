@@ -1,0 +1,16 @@
+||---------------------------------------------------------------------------||
+
+    
+    HTML templates permite criar trechos de HTML que podem ser clonados
+    e reutilizados.
+
+    Para os web components, permite separar a definição do html das classes;
+    isso facilita a escrita;
+    permite modulaziar a estrutura sem ter que criar outras classes e permite
+    definir o HTML dentro do proprio HTML, antes do componente ser desenhado.
+
+
+    Um modelo é criado com o elemento template e pode ser instanciado com o
+    método cloneNode()
+
+||---------------------------------------------------------------------------||
