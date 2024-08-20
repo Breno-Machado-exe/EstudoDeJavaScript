@@ -1,5 +1,33 @@
 ||---------------------------------------------------------------------------||
 
-    
+    Processo de criar um componente web
 
+    01 - Cria uma classe com o comportamento do componente
+
+    02 - Registrar o componente criado 
+    informando:
+    - classe, texto da etiqueta, elemento ancestral (se houver)
+
+    03 - Adicionar um Shadow DOM se precisar isolar elementos e eventos
+
+    04 - Adicionar um tamplete ao Shadow DOM 
+
+    05 - Usar o novo componente
+
+||---------------------------------------------------------------------------||
+
+
+
+
+||---------------------------------------------------------------------------||
+
+    (Prática)
+
+    1 - Vamos criar a classe StarRating 
+
+    2 - Importando o componente para o HTML
+        <script type="module" src="StarRating.js"></script>
+        
+        estamos exportando um modulo de um arquivo js
+        
 ||---------------------------------------------------------------------------||
